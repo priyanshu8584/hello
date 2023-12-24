@@ -1,0 +1,225 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rubik:wght@500&family=Sevillana&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body,html{
+  width: 80%;
+  margin-left: 100px;
+   height: 1000px;
+   /* background:url('PICTURES\ WORLD\ Romantic\ Pics\ Wall\ Papers\ Flower\ Wallpapers\ Best.jpg')   ; */
+   background-color: pink;
+}
+.navtext{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  /* background-color: blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+.container
+{
+  
+  
+  font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Sevillana', cursive;
+  width: 100%;
+ /* background-color: red; */
+  max-height: fit-content;
+  /* display: flex; */
+  margin-left: 404px;
+  align-items: center;
+  justify-content: center;
+  opacity:0;
+    /* margin-bottom: 100px; */
+}
+.main{
+ 
+    /* background-color: blue;   */
+  
+  width: 500px;
+  height: 300px;
+   padding-left: 60px;
+  align-items: center;
+  justify-content: center;
+}
+
+.image1{
+  
+  height: 262px;
+  width: 325px;
+  opacity: 1;
+}
+.image2,.image5,.image6{
+  height: 262px;
+  width: 325px;
+  opacity: 0;
+  margin-left: 250px;
+    margin-right: 409px;
+}
+.image1,
+.image2 {
+  position: absolute;
+}
+
+.image3{
+  width: 120px;
+  height: 120px;
+ margin-left: 135px;
+}
+.image4{
+  opacity: 0;
+
+  padding: 100px;
+}
+.question{
+  opacity: 1;
+}
+
+.aftereffect{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+/* .image2 {
+  z-index: 1;
+} */
+.answer{
+opacity:0;
+}
+.question,
+.answer
+{
+  position: absolute;
+}
+.answer{
+  z-index: 1;
+  font-size: 3rem;
+}
+.textclass
+{
+      /* background-color: red; */
+      height: 70px;
+}
+a{
+  text-decoration: none;
+  text-decoration-style: none;
+  color: black;
+}
+.btns{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  
+  left:900px;
+  top:690px;
+  border-radius: 30px;
+  /* background-color: blue; */
+  font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Sevillana', cursive;
+  display: flex;
+ 
+ 
+ 
+ 
+  font-size: 1.5rem;
+ /* background-color: yellow; */
+}
+.atag{
+  bottom:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  margin-left: 20px;
+  margin-bottom: 90px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: rgb(247, 73, 102);
+  /* margin-right: 200px; */
+  padding: 21px;
+}
+.nobtn{
+  
+ 
+   position: absolute; 
+   top:700px;
+   left:800px;
+   
+  
+}
+
+
+
+
+/* Existing styles */
+
+/* Media query for screens with a maximum width of 600 pixels */
+@media only screen and (max-width: 600px) {
+  body, html {
+    margin-left: 0px;
+    /* Adjustments for smaller screens */
+    max-width: 470px;
+    max-height: 942px;
+    background: url('PICTURES\ WORLD\ Romantic\ Pics\ Wall\ Papers\ Flower\ Wallpapers\ Best.jpg') center center / cover;
+  }
+  .navtext{
+    font-size: 0.8rem;
+  }
+  .container {
+    max-width: 450px;
+    max-height: 920px;
+    width: 100%;
+    margin-left: 10px; /* Adjust as needed */
+  }
+
+  .main {
+    width: 100%; /* Adjust as needed */
+    padding-left: 10px; /* Adjust as needed */
+  }
+
+  .images {
+    margin-left: 40px; /* Adjust as needed */
+  }
+  .image2,.image5
+  {
+    visibility: hidden;
+    width: 2px;
+    height: 2px;
+  }
+
+  .image1,
+  .image2,
+  .image5,
+  .image6 {
+    width: 60%; /* Adjust as needed */
+    margin-left: 0; /* Adjust as needed */
+  }
+
+  .image3 {
+    margin-left: 70px; /* Adjust as needed */
+  }
+
+  .btns {
+    left:200px;
+    right:600px;
+    margin-top: 5px;
+    margin-left: 10px; /* Adjust as needed */
+  }
+
+  .atag {
+    padding: 10px; /* Adjust as needed */
+  }
+}

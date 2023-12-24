@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rubik:wght@500&family=Sevillana&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  background: url('PICTURES/WORLD/Romantic/Pics/Wall Papers/Flower Wallpapers/Best.jpg');
+  background-size: cover;
+}
+
+.navtext {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Arial, Helvetica, sans-serif';
+  font-size: 2rem;
+}
+
+.container {
+  position: relative;
+  font-family: 'Poppins', 'Rubik', 'Sevillana', sans-serif;
+  width: 100%;
+  max-height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  margin-bottom: 100px;
+}
+
+.main {
+  width: 400px;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+}
+
+.images {
+  position: relative;
+}
+
+.image1,
+.image2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 262px;
+  width: 325px;
+}
+
+.image2 {
+  z-index: 1;
+}
+
+.textclass {
+  position: relative;
+  z-index: 2;
+}
+
+.btns {
+  display: flex;
+  margin-left: 700px;
+  opacity: 0;
+  bottom: 200px;
+  font-size: 1.5rem;
+}
+
+.atag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  margin: 40px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: rgb(247, 73, 102);
+}
+
+.container, .btns {
+  transition: opacity 0.5s ease;
+}
